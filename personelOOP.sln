@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "personelOOP", "personelOOP\personelOOP.csproj", "{AC2C5362-501C-470F-A546-3397DBEC02FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC2C5362-501C-470F-A546-3397DBEC02FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2C5362-501C-470F-A546-3397DBEC02FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2C5362-501C-470F-A546-3397DBEC02FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2C5362-501C-470F-A546-3397DBEC02FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {217D1FCE-0CB6-4FAD-B03D-AAECF6EB30D5}
+	EndGlobalSection
+EndGlobal
