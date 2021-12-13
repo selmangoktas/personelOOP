@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace personelOOP
 {
-    public class Personel
+    public class Personel : IAylik
     {
         private string _sicilNo;
         private string _ad;
         private string _soyad;
         private int _ucret;
         private int _izin;
+        private int _rapor;
 
         public string sicilNo
         {
@@ -22,8 +23,10 @@ namespace personelOOP
             }
             set
             {
-                if (_ad.Length == 5)
+                //if (sicilNo.Length == 5)
                     _sicilNo = value;
+                /*else
+                    _sicilNo = "20000";*/
 
             }
         }
@@ -51,16 +54,33 @@ namespace personelOOP
             get { return _izin; }
             set { _izin = value; }
         }
+
+        public int rapor
+        {
+            get
+            {
+                return _rapor;
+            }
+            set
+            {
+                _rapor = value;
+            }
+        }
         public string AdSoyadGetir()
         {
             return $"{ad} {soyad}";
         }
 
-        public virtual void AylikHesapla()
+        public string AylikGoruntule()
+        {
+            return "Alacagınız Maaş: " + ucret;
+        }
+
+        public virtual int AylikHesapla()
         {
 
-             _ucret = (30 - izin) * 150;
-            //return maasHesabi;
+            _ucret = (30 - izin) * 150;
+            return ucret;
         }
 
 
