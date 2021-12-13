@@ -56,11 +56,11 @@ namespace personelOOP
             return $"{ad} {soyad}";
         }
 
-        public virtual int AylikHesapla()
+        public virtual void AylikHesapla()
         {
 
-            int maasHesabi = (30 - izin) * 150;
-            return maasHesabi;
+             _ucret = (30 - izin) * 150;
+            //return maasHesabi;
         }
 
 
